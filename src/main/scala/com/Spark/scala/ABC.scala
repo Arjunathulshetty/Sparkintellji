@@ -26,7 +26,7 @@ object ABC {
     val df = simpleData.toDF("employee_name", "department", "state", "salary", "age", "bonus")
     df.show()
 
-    //Group By on single column
+    //Group
     df.groupBy("department").count().show(false)
     df.groupBy("department").avg("salary").show(false)
     df.groupBy("department").sum("salary").show(false)
