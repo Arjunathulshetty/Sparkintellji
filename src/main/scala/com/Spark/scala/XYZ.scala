@@ -29,14 +29,10 @@ val result = results.mkString("\n")
     for (x <- results){
       println(x._1)
     }
-
-
     //swappedBack.
     //val words = swappedBack.map(x => x.split(",")x(0))
     //Step 6 : Save the output as a Text file and output must be written in a single file.
-    //swappedBack. repartition(1).saveAsTextFile("../result.txt")
-
-
+    //swappedBack. repartition(1).saveAsTextFile("../result.txt"
   }
 
 
