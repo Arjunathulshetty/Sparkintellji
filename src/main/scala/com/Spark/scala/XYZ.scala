@@ -31,7 +31,7 @@ val result = results.mkString("\n")
     }
     //swappedBack.
     //val words = swappedBack.map(x => x.split(",")x(0))
-    //Step 6 : Save the output as a Text file and output must be written in a single file.
+    //Step 6 : Save the output as a Text file and output must be wri
     //swappedBack. repartition(1).saveAsTextFile("../result.txt"
   }
 
